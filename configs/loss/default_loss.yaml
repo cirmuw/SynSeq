@@ -1,0 +1,6 @@
+clf: BCEWithLogitsLoss
+reg: MSE
+rank: None
+clf_weight: 1.0
+reg_weight: 1.0
+rank_weight: 1.0

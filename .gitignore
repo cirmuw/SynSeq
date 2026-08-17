@@ -1,0 +1,5 @@
+/outputs/
+/back_logs
+**/*.pt
+**/*.pt.train
+.idea

@@ -1,0 +1,8 @@
+defaults:
+  - dataset: dataset
+  - video: 256_by_256
+  - training: default_training
+  - model: lstm_mean
+
+fast_dev_run: true
+test_data: test

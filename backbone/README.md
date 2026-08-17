@@ -1,0 +1,1 @@
+In this folder, all the backbones will be placed. This file acts as a placeholder, so that the folder is commited to git.

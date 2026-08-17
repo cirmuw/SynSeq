@@ -1,0 +1,4 @@
+variant: lstm_mean
+weight_path: post_fold01.pt
+model_path_left: ??? #Only needed when doing inference, supply it via commandline or duplicate config here
+model_path_right: ???
