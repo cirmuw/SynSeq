@@ -1,12 +1,14 @@
 # SynSeq
 
-This is the official repository for the Paper "SynSeq: End-to-End SYNTAX Score Prediction from Coronary Angiography Videos". 
-You will find steps to reproduce the paper here.
+This is the official repository for the Paper [SynSeq: End-to-End SYNTAX Score Prediction from Coronary Angiography Videos](http://arxiv.org/abs/2609.27696). 
+You will find steps to reproduce the paper here. If you have any issues open an issue here on GitHub or reach us otherwise, we will try to help as good as we can.
 
 
 # Preparation
 
 Download the CardioSyntax dataset from [the official repository](https://zenodo.org/records/14005818).
+
+The data split is located inside the "dataset" folder. It includes two folders for pretraining and final training. The files starting with "step2" are our split containing only the 60 patients with measurements of three experts. "validation" describes the extended split with more testdata and less training data (note that for the extended split not for all test data labels an annotation of all 3 experts is visible).
 
 ## Install
 
